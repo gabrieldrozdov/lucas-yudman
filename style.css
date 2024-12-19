@@ -458,6 +458,9 @@ body {
 	}
 }
 @media only screen and (max-width: 800px) {
+	main {
+		border-top: 10px solid rgb(255, 221, 0);
+	}
 	.header {
 		grid-template-columns: 1fr;
 	}

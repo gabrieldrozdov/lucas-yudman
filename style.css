@@ -332,6 +332,9 @@ body {
 	width: 100%;
 	display: block;
 }
+figcaption {
+	padding-right: 40px;
+}
 .caption-title {
 	background-color: rgb(255, 221, 0);
 	color: black;

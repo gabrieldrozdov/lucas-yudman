@@ -39,7 +39,7 @@ body {
 	left: 50%;
 	min-width: 240px;
 	transform: translate(-50%, -50%);
-	width: 45vmin;
+	width: 40vmin;
 	/* margin: 40px; */
 	border: 10px solid black;
 	z-index: 1;
@@ -464,8 +464,17 @@ body {
 	.header {
 		grid-template-columns: 1fr;
 	}
+	@keyframes header-title-star-container {
+		from {
+			transform: translate(-50%, -50%) scale(0);
+		}
+		to {
+			transform: translate(-50%, -50%) scale(1.3);
+		}
+	}
 	.header-title {
 		height: 50vh;
+		min-height: 500px;
 	}
 	.header-title-text-lucas {
 		animation: header-title-text-lucas-mobile 2s cubic-bezier(0.87, 0, 0.13, 1) .5s forwards;
